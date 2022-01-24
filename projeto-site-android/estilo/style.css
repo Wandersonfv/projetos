@@ -1,0 +1,218 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "android";
+    src: url('../conteudo/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "bebas";
+    src: url('../conteudo/fontes/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root{
+    --cor0: #c4fcbf;
+    --cor1: #71FB64;
+    --cor2: #2DFA19;
+    --cor3: #23C714;
+    --cor4: #157A0C;
+    --cor5: #377A31;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'bebas', cursive;
+    --fonte-android: 'android', cursive;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: rgb(255, 254, 184);
+    
+}
+#cabeça{   
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to top, var(--cor5), var(--cor4));
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    box-shadow: 0px 15px 20px 12px  rgba(0, 0, 0, 0.445);  
+}
+
+header > h1{
+    font-family: var(--fonte-destaque);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);  
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+header > p{
+    font-family: var(--fonte-padrao);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+    max-width: 500px;
+    margin: auto;
+    font-size: 16px;
+
+}
+
+
+#menu{
+    background-color: var(--cor5);
+    padding-right: 6px;
+    padding-left: 6px;
+    padding: auto;
+}
+.menu_principal{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.527);
+    font-size: 1.2em;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.menu_principal:hover{
+    color: var(--cor5);
+    background-color: rgba(255, 255, 255, 0.493);
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition-duration: 0.8s;
+    
+}
+.menu_principal:scope{
+    color: rgb(188, 255, 197);
+    background-color: rgba(255, 255, 255, 0.493);
+   padding-right: 8px;
+   padding-left: 8px;
+    border-radius: 5px;
+}
+
+
+
+main{
+    background-color: white;
+    max-width: 850px;
+    min-width: 320px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.295);
+    margin-bottom: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+main h1{
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+}
+main h2{
+    font-family: var(--fonte-android);
+    color: var(--cor4);
+    background-image: linear-gradient(to right,var(--cor2), white);
+}
+main p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 2em;
+}
+main strong{
+    color: var(--cor5);
+    font-weight: bold;
+    padding: 2px;
+    
+}
+main a{
+    color: var(--cor5);
+    font-weight: bold;
+    padding: 2px;
+    background-color: var(--cor1);
+    text-decoration: none;
+}
+main .linkfora::after{
+    content: '\1F517';
+
+}
+main  a:hover{
+    background-color: var(--cor4);
+    color: white;
+}
+.video{
+    background-color: black;
+    padding: 2px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 58.45%;
+    position: relative;
+
+}
+div.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    background-color: var(--cor0);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    padding: 10px;
+}
+aside h1{
+    background-color: var(--cor3);
+    margin: -10px -10px 0px -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+
+}
+
+aside ul{
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+
+img{
+    width: 100%;
+    display: block;
+}
+
+main img.pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+
+#rodape{
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(to top,#157A0C ,#2DFA19);
+    padding: 10px;
+    color: #11250f;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+    box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.527);;
+}
+#rodape > a{
+    color: white;
+    text-decoration: none;
+
+}
+
+#rodape > a:hover{
+    color: rgb(188, 255, 197);
+}
