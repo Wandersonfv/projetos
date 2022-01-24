@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@200&family=Roboto:wght@700&display=swap');
+
+
+/*variaveis*/
+ :root{
+   --cor-principal:#0554F2;
+   --azul-semi-principal:#056CF2;
+   --azul-claro: #5C8EF2;
+   --preto-sombrio:#313640;
+ }
+
+/*---------------------*/
+
+*{
+  margin: 0%;
+}
+header{
+  background-color: var(--cor-principal);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+
+footer{
+  background-color: var(--cor-principal);
+  color: white;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer > p {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  max-width: 300px;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+p a{
+  text-decoration: none;
+  color: black;
+}
+
+footer> p a img{
+  height: 15px;
+  width: 15px;
+}
+
+/*-----------------------------*/
+h1{
+  background-color: var(--cor-principal);
+  margin: auto;
+  text-align: center;
+}
+h2{
+  margin-top: 20px;
+  background-color: var(--preto-sombrio);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+#imagen1{
+  background-image: url('imagens/god-of-war-ragnarok.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  margin: auto;
+  width: auto;
+  
+}
+#imagen2{
+  background-image: url('imagens/The\ last\ of\ Us\ part\ 2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  margin: auto;
+  width: auto;
+  
+}
+#imagen3{
+  background-image: url('imagens/Homen\ Aranha-g.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 300px;
+  margin: auto;
+  width: auto;
+  
+}
+
+.conteudo{
+  text-align: justify;
+  margin: auto;
+  max-width: 1500px;
+  min-width: 360px;
+  padding: 10px;
+  border-radius: 10px;
+  transform: translateY(-100px);
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.452);
+  display: flex;
+}
+.conteudo p{
+  margin: auto;
+  width: 300px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+@media (max-width:870px){
+  .conteudo{
+    display: block;
+  }
+  
+
+}

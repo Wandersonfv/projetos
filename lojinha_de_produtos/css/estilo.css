@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Trade+Winds&display=swap');
+
+body{
+    margin: 0%;
+}
+
+/*---------------Cabeçalho---------------*/
+header{
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+header > div >h1{
+    font-family: 'Creepster', cursive;
+    text-align: center;
+}
+
+header > div > p{
+    font-family: 'Trade Winds', cursive;
+    text-align: center;
+}
+
+.menu{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding: 4px;
+}
+.menu:hover{
+    border: 1px solid white;
+}
+
+
+/*-----------------------------------------------------*/
+
+main{
+    margin: auto;
+    max-width: 1800px;
+    display: flex;
+    
+    
+}
+
+#carrinho{
+    background-color: rgb(212, 212, 212);
+    padding: 10px;
+    width: 20%;
+    
+    
+    
+
+}
+#produtos{
+    padding: 10px;
+    width: 80%;
+    
+}
+
+
+.titulo-produto{
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#eletrodomestico>div{
+    display: flex;
+    
+    
+}
+#game>div{
+    display: flex;
+}
+#tv>div{
+    display: flex;
+}
+
+/*--------------------produto-------------------*/
+.produto{
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 2px;
+    
+
+}
+.image{
+    text-align: center;
+}
+.produto > img{
+    max-width: 136px;
+    max-height: 163px; 
+
+}
+.produto > p{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.produto > a{
+    text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: right;
+    border: 1px solid white;
+    padding: 5px;
+}
+.produto > a:hover{
+    border: 1px solid black;
+}
+/*------------------------------------------------------*/
+
+#total{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding-left: 5px;
+}
+
+.compra{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+/*-----------------------rodape-----------------------*/
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+}
+
+#criador{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.sobremin{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    max-width: 180px;
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    
+    
+}
+.sobremin:hover{
+    border: 1px solid white;
+    
+}
+.sobremin > a{
+    color: black;
+    text-decoration: none;
+}
+.sobremin > img{
+    max-width: 15px;
+    max-height: 15px;
+    text-align: justify;
+}
+
+
+/*----------------------------------------------------*/
+
+
+@media (max-width: 1000px){
+    #carrinho{
+        width: 30%;
+    }
+    #produtos{
+        width: 70%;
+    }
+}
+@media (max-width:879px) {
+    #carrinho{
+        width: 40%;
+    }
+    #produtos{
+        width: 60%;
+    }
+
+
+
+    #eletrodomestico>div{
+        display: block;
+    }
+    #game>div{
+        display: block;
+    }
+    #tv>div{
+        display: block;
+    }
+}

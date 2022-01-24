@@ -1,0 +1,19 @@
+{
+  "verduras":[
+  {"id":0,"nome":"Brocolis","preço":1.81,"qtda":0,"imagen":"produtos/brocolis-original.jpg"},
+  {"id":1,"nome":"Cebolinha","preço":2.99,"qtda":0,"imagen":"produtos/cebolinha-original.jpg"},
+  {"id":2,"nome":"Milho","preço":3.99,"qtda":0,"imagen":"produtos/milho-original.jpg"},
+  {"id":3,"nome":"Pepino","preço":2.99,"qtda":0,"imagen":"produtos/pepino-original.jpg"},
+  {"id":4,"nome":"Salsa","preço":1.99,"qtda":0,"imagen":"produtos/salsa-original.jpg"},
+  {"id":5,"nome":"Tomate","preço":1.99,"qtda":0,"imagen":"produtos/tomate-original.jpg"},
+  {"id":6,"nome":"Chuchu","preço":2.49,"qtda":0,"imagen":"produtos/chuchu-original.jpg"},
+  {"id":7,"nome":"Inhame","preço":2.49,"qtda":0,"imagen":"produtos/inhame-original.jpg"},
+  {"id":8,"nome":"Cenoura","preço":2.39,"qtda":0,"imagen":"produtos/cenoura-original.jpg"},
+  {"id":9,"nome":"Maçã","preço":5.89,"qtda":0,"imagen":"produtos/maça-original.jpg"},
+  {"id":10,"nome":"Banana","preço":5.99,"qtda":0,"imagen":"produtos/banana-original.jpg"}
+  ]
+}
+  
+  
+
+  

@@ -1,0 +1,22 @@
+header > a > #voltar{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  animation: arrow 2s infinite ;
+}
+
+
+@keyframes arrow{
+  0%{
+    transform: translateX(0)
+  }
+  50%{
+    transform: translateX(5px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+
+}
