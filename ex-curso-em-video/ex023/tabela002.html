@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    thead{
+      background-color: rgb(185, 185, 185);
+      font-weight: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+
+    }
+    td{
+      width: 200px;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    .nun{
+      text-align: right;
+    }
+
+
+    tfoot{
+      background-color: rgb(185, 185, 185);
+      font-weight: bolder;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white;
+
+    }
+  </style>
+</head>
+<body>
+  <h1>Uso de tabelas grandes</h1>
+  <!--
+    ANATOMIA PARA TABELAS GRANDES TABLE
+    THEAD
+      TR,TD,TH
+    TBODY
+      TR,TD,TH
+    TFOOT
+      TR,TD,TH
+  -->
+  <table>
+    <thead>
+      <tr>
+        
+        <td>Unidade federativa</td>
+        <td>População</td>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td>São Paulo</td>
+        <td class="nun">46649132</td>
+      </tr>
+
+      <tr>
+        <td>Minas Gerais</td>
+        <td class="nun">21411923</td>
+      </tr>
+
+      <tr>
+        <td>Rio de Janeiro</td>
+        <td class="nun">17463349</td>
+      </tr>
+
+      <tr>
+        <td>Bahia</td>
+        <td class="nun">14985284</td>
+      </tr>
+
+      <tr>
+        <td>Paraná</td>
+        <td class="nun">11597484</td>
+      </tr>
+
+      <tr>
+        <td>Rio Grande do Sul</td>
+        <td class="nun">11466630</td>
+      </tr>
+
+      <tr>
+        <td>Pernambuco</td>
+        <td class="nun">9674793</td>
+      </tr>
+
+      <tr>
+        <td>Ceará</td>
+        <td class="nun">9240580</td>
+      </tr>
+
+      <tr>
+        <td>Pará</td>
+        <td class="nun">8777124</td>
+      </tr>
+
+      <tr>
+        <td>Santa Catarina</td>
+        <td class="nun">7338473</td>
+      </tr>
+
+      <tr>
+        <td>Goiás</td>
+        <td class="nun">7206589</td>
+      </tr>
+
+      <tr>
+        <td>Maranhão</td>
+        <td class="nun">7153262</td>
+      </tr>
+
+      <tr>
+        <td>Amazonas</td>
+        <td class="nun">4269995</td>
+      </tr>
+
+      <tr>
+        <td>Espírito Santo</td>
+        <td class="nun">4108508</td>
+      </tr>
+
+      <tr>
+        <td>Paraíba</td>
+        <td class="nun">4059905</td>
+      </tr>
+
+      <tr>
+        <td>Mato Grosso</td>
+        <td class="nun">3567234</td>
+      </tr>
+
+      <tr>
+        <td>Rio Grande do Norte</td>
+        <td class="nun">3560903</td>
+      </tr>
+
+      <tr>
+        <td>Alagoas</td>
+        <td class="nun">3365351</td>
+      </tr>
+
+      <tr>
+        <td>Piauí</td>
+        <td class="nun">3289290</td>
+      </tr>
+
+      <tr>
+        <td>Distrito Federal</td>
+        <td class="nun">3094325</td>
+      </tr>
+
+      <tr>
+        <td>Mato Grosso do Sul</td>
+        <td class="nun">2839188</td>
+      </tr>
+
+      <tr>
+        <td>Sergipe</td>
+        <td class="nun">2338474</td>
+      </tr>
+
+      <tr>
+        <td>Rondônia</td>
+        <td class="nun">1815278</td>
+      </tr>
+
+      <tr>
+        <td>Tocantis</td>
+        <td class="nun">1607363</td>
+      </tr>
+
+      <tr>
+        <td>Acre</td>
+        <td class="nun">906876</td>
+      </tr>
+
+      <tr>
+        <td>Amapá</td>
+        <td class="nun">877613</td>
+      </tr>
+
+      <tr>
+        <td>Roraima</td>
+        <td class="nun">652713</td>
+      </tr>
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total</td>
+        <td id="total"></td>
+      </tr>
+
+    </tfoot>
+  </table>
+  <script src="tabela002.js"></script>
+
+</body>
+</html>
