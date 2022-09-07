@@ -11,7 +11,7 @@ body,html{
     width: 100vw;
 }
 body{
-    background: url("conteudo/pacote-d013/imagens/fundo-madeira.jpg") no-repeat center top fixed;
+    background: url("../conteudo/pacote-d013/imagens/fundo-madeira.jpg") no-repeat center top fixed;
     background-attachment: fixed;
     background-size: cover;
     
@@ -31,7 +31,7 @@ main{
     transform: translate(-50%, -50%);
     width: 311px;
     height: 627px;
-    background: url("conteudo/pacote-d013/imagens/frame-iphone.png") no-repeat;
+    background: url("../conteudo/pacote-d013/imagens/frame-iphone.png") no-repeat;
     
       
 }
