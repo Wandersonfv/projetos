@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="">
+        <p>
+            <label for=""></label>
+            <input type="range" name="numb" id="numb" min="0" max="10" value="5" oninput="val.innerHTML = Number(numb.value)">
+            <output id="val">5</output>
+        </p>
+        <p>
+            <p>
+                <label for="iage">Em que ano você nasceu? </label>
+                <input type="number" name="age" id="iage" min="1950" max="2030"
+                oninput="
+                iidade.innerHTML = Number(new Date().getFullYear())-Number(iage.value)">
+            </p>
+            <p>
+                <label for="iidade">Sua idade é: </label>
+                <output id="iidade">
+                    0
+                </output>
+            </p>
+        </p>
+
+
+    </form>
+    
+</body>
+</html>
