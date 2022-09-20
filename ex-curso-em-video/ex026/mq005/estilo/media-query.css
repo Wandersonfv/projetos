@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 550px) {
+    header{
+        background-color: rgb(164, 164, 164);
+        min-width: 500px;
+        margin-bottom: 10px;
+        
+        
+    }
+
+    span#botao{
+        display: none;
+        margin-top: 20px;
+
+    }
+    ul#list{
+        display: block;
+        padding: 15px;
+        list-style-type: none;
+        text-align: center;
+        padding: auto;
+        
+        
+        
+        
+    
+    }
+    li{
+        background-color: gray;
+        display: inline;
+        padding: 10px;
+        
+    }
+
+
+}
