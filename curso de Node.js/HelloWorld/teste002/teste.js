@@ -21,10 +21,10 @@ const Postagem = sequelize.define('postagen',{
 
 
 //SErve para Inserir dados na tabela do Banco de dados.
-Postagem.create({
+/*Postagem.create({
     titulo:'Primeiro arquivo',
     conteudo:'Meu primeiro arquivo no Banco de Dados, estou mito Feliz.'
-})
+})*/
 
 
 //Serve para criar a tabela no banco de dados.
@@ -47,6 +47,13 @@ const Usuarios = sequelize.define('Usuarios',{
         type: Sequelize.STRING
     }
 
+})
+
+Usuarios.create({
+    nome:'Wanderson',
+    sobrenome:'Furtado Varejão',
+    idade:29,
+    email:'wandersonfv10@gmail.com'
 })
 
 //Serve para criar a tabela no banco de dados.

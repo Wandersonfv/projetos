@@ -1,0 +1,42 @@
+form{
+    background-color: aliceblue;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: -2px 2px 20px rgba(0, 0, 0, 0.137);
+
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.431);
+}
+
+label{
+    display: inline;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.431);
+
+}
+input{
+    display: inline;
+    text-align: right;
+}
+
+.botao{
+    background-color: rgb(237, 237, 255);
+    border: 1px solid black;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+}
+
+.botao:hover{
+    cursor: pointer;
+}
+.botao:active{
+    background-color: white;
+    color:  rgb(237, 237, 255);
+}
