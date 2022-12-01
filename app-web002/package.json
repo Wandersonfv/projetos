@@ -1,0 +1,16 @@
+{
+  "name": "app-web002",
+  "version": "1.0.0",
+  "description": "Api para conecção ao banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wanderson Furtado Varejão",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.25.3",
+    "sqlite3": "^5.1.2"
+  }
+}
