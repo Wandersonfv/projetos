@@ -1,0 +1,53 @@
+const Express = require('express')
+const app = Express()
+const user = require('./models/userdb') 
+
+
+
+
+
+app.use(Express.urlencoded({extended:true}))
+app.use(Express.json())
+
+
+
+app.get('/',(req, res)=>{
+    res.sendFile(__dirname+"/html/index.html")
+})
+
+
+
+
+
+app.post('/add',(req,res)=>{
+
+
+    user.create({
+
+        nome: req.body.nome,
+        sobrenome: req.body.sobrenome,
+        idade: req.body.idade,
+        email: req.body.email,
+
+    }).then(()=>{
+        res.sendFile(__dirname+'/html/msg.html')
+    }).catch((error)=>{
+        res.sendFile(__dirname+`/html/error.html`)
+        
+//__dirname+'/html/error.html'
+    })
+
+    
+    
+
+})
+
+
+
+
+
+
+
+
+app.listen(9060,()=> console.log("Servidor Funcionando na porta http://localhost:9060/"))
+
